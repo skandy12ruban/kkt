@@ -8,10 +8,10 @@ $result = "";
 $email = "";
 $message = "";
 $name = "";
-$account = 'skandyssn@gmail.com';
-$password = 'subashree';
-$from = 'klickkit@gmail.com';
-$from_name = 'klickkit';
+$account = 'username@gmail.com';
+$password = 'password';
+$from = 'name@gmail.com';
+$from_name = 'name';
 $subject = 'Response to your mail';
 $msg = 'this is to response your email.We will get back to you soon.';
 	if (isset($_POST["submit"])) {
@@ -120,5 +120,4 @@ if(!$mail->send()){
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
-  
 </html>
